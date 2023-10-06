@@ -1,0 +1,26 @@
+pszeudo code
+
+program feladat1()
+	osszeg = 0
+	i = 1
+	ciklus amíg(i<101)
+		osszeg = osszeg + i
+		i = i + 1
+	c.v.
+	ki: osszeg
+pr.v.
+
+program feladat2()
+	i = 1
+	fej = 0
+	iras = 0
+	ciklus amíg i<1001
+		ha(dobas = fej)
+			fej = fej + 1
+		különben
+			iras = iras + 1
+		e.v.
+		i = i + 1
+	c.v.
+	Ki: fej, iras
+pr.v
