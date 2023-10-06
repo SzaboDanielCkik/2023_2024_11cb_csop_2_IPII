@@ -1,0 +1,59 @@
+Mondatszerű ábrázolás algoritmusoknál
+Pszeudokód
+
+Szekvencia - utasítások sorozata
+változó_név = érték
+Be: változó_név
+Ki: változó_név
+
+Szelekció - elágazás
+ha(feltétel(ek)) akkor 
+	szekvencia;
+e.v. //elágazás vége
+
+ha(feltétel(ek)) akkor
+	szekvencia1;
+különben
+	szekvencia2;
+e.v.
+	
+ha(feltétel(ek)) akkor
+	szekvencia1;
+különben ha(feltétel(ek))
+	szekvencia2;
+....
+különben
+	szekvenciaN;
+e.v.	
+
+Iteráció - ciklus - ismétlődés
+Számlálós ciklus
+ciklus i = kezdőérték - végértékig léptetés
+	Ciklus mag;
+c.v. //ciklus vége
+
+Előltesztelős ciklus
+ciklus amíg(feltétel(ek))
+	Ciklus mag;
+c.v.
+
+Hátul tesztelős
+Csináld
+	Ciklus mag;
+amíg(feltétel(ek));
+
+program program_név(változók)
+	Folyamat;
+pr.v.
+
+Program Feladat1()
+	Be:a,b: egész
+	ha(a>b)
+		c = a;
+		a = b;
+		b = c;
+	e.v.
+	ciklus i = a-tól b-ig egyesével
+		Ki:i;
+	c.v.
+pr.v.
